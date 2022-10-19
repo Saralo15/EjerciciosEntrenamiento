@@ -1,0 +1,14 @@
+header{
+
+    align-content: center;
+    background-color: black;
+    font-style: italic;
+}
+
+img{
+    border-radius: 20px;
+}
+
+#datosP{
+    align-items: center;
+}
