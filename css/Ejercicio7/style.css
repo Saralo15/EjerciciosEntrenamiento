@@ -1,0 +1,21 @@
+/*Portatiles*/
+@media screen and (min-width: 992px){
+    body {
+        background-color: blueviolet;
+    }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 600px){
+    body{
+        background-color: cadetblue;
+    }
+}
+
+/*Telefonos*/
+@media only screen and (max-width: 600px){
+    body{
+        background-color: brown;
+    }
+}
+
