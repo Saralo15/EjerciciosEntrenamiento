@@ -4,73 +4,55 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container mt-3">
-            <div class="table-responsive-sm">
-                <table class="table table-hover">
-                        <thead class="table-dark">
-                            <tr>
-                            <th>#</th>
-                            <th>First</th>
-                            <th>Last</th>
-                            <th>Handle</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                            <td>1</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            </tr>
-                            <tr>
-                            <td>2</td>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            </tr>
-                            <tr>
-                            <td>3</td>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            </tr>
-                        </tbody>
-                        </table>
-                        <table class="table table-hover">
-                        <thead class="table-success">
-                            <tr>
-                            <th>#</th>
-                            <th>First</th>
-                            <th>Last</th>
-                            <th>Handle</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </table>
+        <header class="header">
+            <h1 class="display-1 text-bg-primary">Mi Curriculum Vitae</h1>
+        </header>
+        <div class="body">
+            <menu style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                <li><a href="#datosP">Datos Personales</a></li>
+                <li><a href="#hab">Habilidades</a></li>
+                <li><a href="#formA">Formación Académica</a></li>
+                <li><a href="#formL">Formación Laboral</a></li>
+                <li><a href="#formC">Formación Complementaria</a></li>
+            </menu>
+            <div id="datosP" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                <img src="yo.jpg">
+                <div id="datos">
+                    <h2><dt>Sara Lopera Luna</dt></h2>
+                    <p>20 años</p>
+                    <p>C/La Tinaja nº5</p>
+                    <p>Lucena</p>
+                </div>
+            </div>
+            <div id="hab">
+                <h3 class="display-2 text-bg-primary">Habilidades</h3>
+                <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Me considero una persona con capacidad de adaptación. Soy muy empática,<br>
+                    con capacidad de escuchar, además de tener un pensamiento crítico y creativo.<br>
+                    Mis puntos fuertes son la organización y la resolución de problemas.
+                </p>
+            </div>
+            <div id="formA">
+                <h3 class="display-2 text-bg-primary">Formación Académica</h3>
+                <ol style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    <li>2018-2020 Grado Bachillerato Artístico -<a href="https://blogsaverroes.juntadeandalucia.es/iesmarquesdecomares/"> I.E.S Marqués de comares(Lucena)</a></li>
+                    <li>2021-2023 Técnico Superior en Desarrollo de Aplicaciones Web -<a href="https://blogsaverroes.juntadeandalucia.es/iesmarquesdecomares/"> I.E.S Marqués de comares(Lucena)</a></li>
+                </ol>
+            </div>
+            <div id="formL">
+                <h3 class="display-2 text-bg-primary">Formación Laboral</h3>
+                <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Ninguna</p>
+            </div>
+            <div id="formC">
+                <h3 class="display-2 text-bg-primary">Formación Complementaria</h3>
+                <ol style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    <li>Edición de video</li>
+                    <li>Diseño y creación de logotipos</li>
+                </ol>
             </div>
         </div>
     </body>

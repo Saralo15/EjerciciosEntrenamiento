@@ -1,0 +1,52 @@
+header{
+    background-color: cadetblue;;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+p{
+    margin: 20px;
+}
+
+li{
+    margin: 20px; 
+}
+
+img{
+    border-radius: 70px;
+    float: left;
+}
+
+#datosP{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hab{
+    text-align: center;
+    
+}
+
+#formA{
+    text-align: center;
+}
+
+#formC{
+    text-align: center;
+}
+
+#formL{
+    text-align: center;
+}
+
+.body{
+    vertical-align: baseline;
+}
+
+#datos{
+    flex: 1;
+    text-align: left;
+}
